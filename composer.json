@@ -20,12 +20,12 @@
     },
     "scripts": {
         "post-install-cmd": [
-          "php artisan module:migrate Slider",
-          "php artisan module:publish Slider"
+          "php artisan module:migrate User",
+          "php artisan module:publish User"
         ],
         "post-update-cmd": [
-          "php artisan module:migrate Slider",
-          "php artisan module:publish Slider"
+          "php artisan module:migrate User",
+          "php artisan module:publish User"
         ]
       },
     "minimum-stability": "dev",

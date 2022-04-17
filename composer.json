@@ -1,6 +1,6 @@
 {
     "name": "dwedaz/user-module",
-    "type": "laravel-module",
+    "type": "laravel-module",\\
     "license": "MIT",
     "description": "",
     "authors": [
@@ -15,7 +15,8 @@
             "aliases": {
 
             }
-        }
+        },
+        "module-dir": "Module"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,

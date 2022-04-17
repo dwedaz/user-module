@@ -1,5 +1,7 @@
 {
     "name": "dwedaz/user-module",
+    "type": "laravel-module",
+    "license": "MIT",
     "description": "",
     "authors": [
         {
@@ -15,6 +17,8 @@
             }
         }
     },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "autoload": {
         "psr-4": {
             "Modules\\User\\": ""

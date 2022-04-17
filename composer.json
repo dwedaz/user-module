@@ -9,6 +9,10 @@
             "email": "neo.dwedaz@gmail.com"
         }
     ],
+    "require": {
+        "php": ">=8.0",
+        "backpack/crud": "^5.0"
+    },
     "extra": {
         "laravel": {
             "providers": [],

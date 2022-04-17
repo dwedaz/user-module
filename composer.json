@@ -18,6 +18,16 @@
         },
         "module-dir": "Module"
     },
+    "scripts": {
+        "post-install-cmd": [
+          "php artisan module:migrate Slider",
+          "php artisan module:publish Slider"
+        ],
+        "post-update-cmd": [
+          "php artisan module:migrate Slider",
+          "php artisan module:publish Slider"
+        ]
+      },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
